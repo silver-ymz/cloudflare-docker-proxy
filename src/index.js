@@ -7,7 +7,7 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "cloudflare-docker-proxy.ymzymz.workers.dev/": dockerHub,
+  "cloudflare-docker-proxy.ymzymz.workers.dev": dockerHub,
 };
 
 function routeByHosts(host) {
